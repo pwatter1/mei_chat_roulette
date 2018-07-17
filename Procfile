@@ -1,1 +1,1 @@
-web: python chat_roulette.py 
+web: gunicorn chat_roulette:app 
