@@ -1,1 +1,1 @@
-web: gunicorn app:chat_roulette --log-file=-
+web: python chat_roulette.py 
